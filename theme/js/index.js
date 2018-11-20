@@ -52,6 +52,13 @@ jQuery(function ($) {
                 "autor": "ДИМОН Билан",
                 "duration": "3:40",
                 "file": "e282dee05f41e73948fff2d9b93dea13"
+            },{
+                "track": 4,
+                "image": "http://piljarakami.com/wp-content/uploads/zelencuk/trupka-rozeva.jpg",
+                "name": "Трупка",
+                "autor": "Джиган",
+                "duration": "2:48",
+                "file": "9c39e8f876b7bfe54270f1f2fc8e1acf"
             }],
             buildPlaylist = $(tracks).each(function(key, value) {
                 var trackNumber = value.track,
