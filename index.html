@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Music</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">-->
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">-->
+<!--    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>-->
+<!--    <link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>-->
+
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.3.21/plyr.css">
+    <link rel="stylesheet" href="theme/css/style.css">
+
+
+</head>
+<body>
+
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="rect1"></div>
+                    <div class="rect2"></div>
+                    <div class="rect3"></div>
+                    <div class="rect4"></div>
+                    <div class="rect5"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="plwrap">
+            <ul id="plList"></ul>
+        </div>
+
+        <div class="music-case">
+            <div class="music-line">
+                <div class="music-line-time">
+                    <span class="music-line-time__start">0:00</span>
+                    <span class="music-line-time__end">2:35</span>
+                </div>
+                <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+            </div>
+            <div class="music-system">
+                <div class="music-info">
+                    <div class="music-info__img">
+                        <img id="musicImg">
+                    </div>
+                    <div class="music-info-text">
+                        <div id="musicTitle" class="music-info-text__title">
+                        </div>
+                        <div id="musicAutor" class="music-info-text__autor">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="music-control">
+                    <a class="music-prev" id="btnPrev"></a>
+                    <button id="music-play"><i class="music-play-icon__play"></i></button>
+                    <a class="music-next" id="btnNext"></a>
+                </div>
+
+                <div class="music-volume">
+                </div>
+            </div>
+        </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.3.21/plyr.min.js"></script>
+    <script src="theme/js/index.js"></script>
+
+</body>
+</html>
