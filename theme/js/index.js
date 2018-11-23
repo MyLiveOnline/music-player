@@ -55,7 +55,7 @@ jQuery(function ($) {
             },{
                 "track": 4,
                 "image": "http://piljarakami.com/wp-content/uploads/zelencuk/trupka-rozeva.jpg",
-                "name": "Трупка",
+                "name": "Проверка",
                 "autor": "Джиган",
                 "duration": "2:48",
                 "file": "9c39e8f876b7bfe54270f1f2fc8e1acf"
