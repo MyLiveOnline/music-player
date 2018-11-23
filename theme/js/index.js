@@ -80,7 +80,7 @@ jQuery(function ($) {
             npAction = $('#npAction'),
             musicInfoImg = $('#musicImg'),
             musicTitle = $('#musicTitle'),
-            musicAutor = $('#musicAutor'),
+            musicAutor = $('#musicAutor'),k
             npTitle = $('#npTitle'),
             audio = $('#audio1').on('play', function () {
                 playing = true;
